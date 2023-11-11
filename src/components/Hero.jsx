@@ -18,7 +18,7 @@ export default function Hero(){
                     <button className="dark:text-slate-200 mt-20 sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">CONTACT ME</button>       
                 </div>            
             </div>
-            <hr className="h-1 m-5"/>
+            
         </div>
     );
 }
