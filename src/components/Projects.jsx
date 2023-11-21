@@ -19,6 +19,7 @@ export default function Projects(){
                 <h1 className="dark:text-slate-200 text-3xl md:text-4xl lg:text-5xl py-1 font-bold sm:mx-10 z-10">React</h1>
                 <h1 className="dark:text-slate-200 text-3xl md:text-4xl lg:text-5xl py-1 font-bold sm:mx-10 z-10">NextJs</h1>
                 <h1 className="dark:text-slate-200 text-3xl md:text-4xl lg:text-5xl py-1 font-bold sm:mx-10 z-10">Tailwind</h1>
+                <h1>Prova</h1>
             </div>
         </div>
     );
