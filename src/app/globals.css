@@ -18,6 +18,44 @@
       @apply sm:mx-10;
       @apply z-10;    
     }
+    h2 {
+      @apply dark:text-slate-200; 
+      @apply text-2xl;
+      @apply md:text-3xl;
+      @apply lg:text-4xl;
+      @apply py-1;
+      @apply font-bold;
+      @apply sm:mx-10;
+      @apply z-10;    
+    }
+    p {
+      @apply dark:text-slate-200; 
+      @apply text-xs;
+      @apply md:text-sm;
+      @apply lg:text-base;
+      @apply py-1;
+      @apply font-bold;
+      @apply sm:mx-10;
+      @apply z-10; 
+    }
+    .frontend {
+      @apply underline;
+      @apply decoration-emerald-400;
+      @apply underline-offset-8;
+      @apply decoration-4;
+    }
+    .backend {
+      @apply underline;
+      @apply decoration-amber-300;
+      @apply underline-offset-8;
+      @apply decoration-4;
+    }
+    .utility{
+      @apply underline;
+      @apply decoration-stone-400;
+      @apply underline-offset-8;
+      @apply decoration-4;
+    }
     
 
     
