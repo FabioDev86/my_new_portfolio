@@ -38,6 +38,9 @@
       @apply sm:mx-10;
       @apply z-10; 
     }
+    hr {
+      @apply m-5;
+    }
     .frontend {
       @apply underline;
       @apply decoration-emerald-400;

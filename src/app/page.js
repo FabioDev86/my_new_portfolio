@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Certifications from "@/components/Certifications";
 import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -10,13 +11,15 @@ export default function Home() {
     <main className="dark:bg-slate-950">
       <Header />
       <Hero />
-      <hr className="h-1 m-5"/>
+      <hr/>
       <Skills />
-      <hr className="h-1 m-5"/>
+      <hr/>
+      <Certifications />
+      <hr/>
       <Projects />
-      <hr className="h-1 m-5"/>
+      <hr/>
       <About />
-      <hr className="h-1 m-5"/>
+      <hr/>
       <Contact />
     </main>
   )
