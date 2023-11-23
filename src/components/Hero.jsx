@@ -5,7 +5,7 @@ export default function Hero(){
         <div>
             <div className="sm:text-left sm:flex flex-row-reverse">
                 <Image 
-                    src="/hero.png"
+                    src="/hero.jpg"
                     width={200}
                     height={300}
                     alt="My profile picture"
