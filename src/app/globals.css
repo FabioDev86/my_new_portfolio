@@ -13,9 +13,9 @@
       @apply text-3xl;
       @apply md:text-4xl;
       @apply lg:text-5xl;
+      @apply sm:mx-10;
       @apply py-1;
       @apply font-bold;
-      @apply z-10;    
     }
     h2 {
       @apply dark:text-slate-200; 
@@ -24,7 +24,6 @@
       @apply py-1;
       @apply font-bold;
       @apply sm:mx-10;
-      @apply z-10;
     }
     p {
       @apply dark:text-slate-200; 
