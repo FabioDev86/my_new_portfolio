@@ -9,7 +9,7 @@ export default function Hero(){
                     width={200}
                     height={300}
                     alt="My profile picture"
-                    className="mx-auto w-1/2 mb-3 max-w-xs sm: z-0"
+                    className="mx-auto w-1/2 mb-3 max-w-xs sm:mr-9 z-0"
                 />
                 <div className="mt-10 flex flex-col gap-4">
                     <div>
@@ -18,7 +18,7 @@ export default function Hero(){
                     </div>
                     <h2>I'm a Front end Developer specialized in React</h2> 
                     <h2>"Maybe I don't know how to do it yet but I will figure it out!"</h2>
-                    <button className="dark:text-slate-200 mt-20 sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">VIEW MY PROJECTS</button>       
+                    <button className="dark:text-slate-200 mt-20 self-start sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">VIEW MY PROJECTS</button>       
                 </div>            
             </div>
             

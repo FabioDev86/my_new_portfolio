@@ -6,7 +6,7 @@ export default function Certifications(){
     const[hidden, setHidden] = useState(true);
     return(
         <div className="z-10">
-            <div className="flex justify-around px-10 items-center">
+            <div className="flex justify-between px-10 items-center">
                 <h1>Certifications</h1>                
                 <svg onClick = {() => setHidden(!hidden)} width="80px" height="80px" viewBox="0 0 24 24" className={"dark:fill-slate-200 transition ease-in-out delay-150 " + (!hidden ? "rotate-180" : "") } xmlns="http://www.w3.org/2000/svg">
                     <path d="M17 9.5L12 14.5L7 9.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
