@@ -17,7 +17,7 @@ export default function Certifications(){
                     <p className="frontend">Completed</p>
                     <p className="backend">In progress</p>
                 </div>
-                <div className="grid md:grid-cols-3 lg:grid-cols-4 ">
+                <div className="grid md:grid-cols-3">
                     <Image 
                         src="/front_end.png"
                         width={500}
@@ -37,7 +37,7 @@ export default function Certifications(){
                         width={500}
                         height={500}
                         alt="Meta Back End Developer Certification"
-                        className="mx-auto my-3 w-3/4 border-4 border-amber-300"
+                        className="mx-auto my-3 w-3/4 border-4 border-amber-300" 
                     />
                 </div>
 
