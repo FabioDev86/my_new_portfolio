@@ -18,7 +18,7 @@ export default function Skills(){
                     <p className="backend">Back End</p>
                     <p className="utility">Generic</p>
                 </div>
-                <div className="grid md:grid-cols-3 lg:grid-cols-4">
+                <div className="grid sm:grid-cols-3 lg:grid-cols-4">
                     <h2 className="frontend">HTML</h2>
                     <h2 className="frontend">CSS</h2>
                     <h2 className="frontend">Java Script</h2>                
