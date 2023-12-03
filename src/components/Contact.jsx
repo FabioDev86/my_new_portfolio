@@ -9,20 +9,20 @@ export default function Contact(){
     const MyInput = ({ label, ...props }) => {
         const [field, meta] = useField(props);
         return (
-            <div className="input-box">                
+            <div className="mx-10 flex flex-col  my-5">                
                 <label htmlFor={props.id || props.name}><p>{label}</p></label>
-                <input className="input" {...field} {...props} />                  
-                <div className="text-red-600">{ meta.touched && meta.error ? meta.error : null }</div>
+                <input className={"border-4 " + (meta.touched && meta.error ? "border-red-600" : "border-emerald-400")} {...field} {...props} />                  
+                <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
             </div>
         );
     };
     const MyTextArea = ({ label, ...props }) => {
         const [field, meta] = useField(props);
         return (
-          <div className="input-box">          
+          <div className="mx-10 flex flex-col">          
             <label htmlFor={props.id || props.name}><p>{label}</p></label>
-            <textarea className="input" {...field} {...props} />
-            <div className="text-red-600">{ meta.touched && meta.error ? meta.error : null }</div>
+            <textarea className={" h-40 border-4 " + (meta.touched && meta.error ? "border-red-600" : "border-emerald-400")} {...field} {...props} />
+            <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
           </div>
         );
     };
@@ -77,7 +77,7 @@ export default function Contact(){
                         name="message"
                         type="textarea"
                     />
-                    <button type="submit" id="submit"><h1>Submit</h1></button>
+                    <button type="submit" id="submit" className="dark:text-slate-200 my-10 sm:self-start sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">SUBMIT</button>
                 </Form>
                 
              </Formik>

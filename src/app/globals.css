@@ -35,6 +35,13 @@
       @apply sm:mx-10;
       @apply z-10; 
     }
+    .error {
+      @apply dark:text-red-600; 
+      @apply text-xs;
+      @apply md:text-sm;
+      @apply lg:text-base;
+      @apply font-bold;
+    }
     hr {
       @apply m-5;
     }
