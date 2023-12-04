@@ -41,6 +41,8 @@
       @apply md:text-sm;
       @apply lg:text-base;
       @apply font-bold;
+      @apply self-end;
+      @apply animate-pulse;
     }
     hr {
       @apply m-5;

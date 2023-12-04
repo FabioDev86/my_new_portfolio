@@ -10,8 +10,8 @@ export default function Contact(){
         const [field, meta] = useField(props);
         return (
             <div className="mx-10 flex flex-col  my-5">                
-                <label htmlFor={props.id || props.name}><p>{label}</p></label>
-                <input className={"border-4 " + (meta.touched && meta.error ? "border-red-600" : "border-emerald-400")} {...field} {...props} />                  
+                <label htmlFor={props.id || props.name} className="self-start"><p>{label}</p></label>
+                <input className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200" {...field} {...props} />                  
                 <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
             </div>
         );
@@ -20,8 +20,8 @@ export default function Contact(){
         const [field, meta] = useField(props);
         return (
           <div className="mx-10 flex flex-col">          
-            <label htmlFor={props.id || props.name}><p>{label}</p></label>
-            <textarea className={" h-40 border-4 " + (meta.touched && meta.error ? "border-red-600" : "border-emerald-400")} {...field} {...props} />
+            <label htmlFor={props.id || props.name} className="self-start"><p>{label}</p></label>
+            <textarea className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200" {...field} {...props} />
             <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
           </div>
         );
@@ -63,17 +63,17 @@ export default function Contact(){
                 
                 <Form>
                     <MyInput 
-                        label="Your name"
+                        label="NAME"
                         name="name"
                         type="text"
                     />
                     <MyInput 
-                        label="Your Email"
+                        label="EMAIL"
                         name="email"
                         type="email"
                     />
                     <MyTextArea 
-                        label="Your message"
+                        label="MESSAGE"
                         name="message"
                         type="textarea"
                     />
