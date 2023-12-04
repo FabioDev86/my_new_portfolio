@@ -11,7 +11,7 @@ export default function Contact(){
         return (
             <div className="mx-10 flex flex-col  my-5">                
                 <label htmlFor={props.id || props.name} className="self-start"><p>{label}</p></label>
-                <input className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200" {...field} {...props} />                  
+                <input className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200 bg-zinc-100" {...field} {...props} />                  
                 <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
             </div>
         );
@@ -21,7 +21,7 @@ export default function Contact(){
         return (
           <div className="mx-10 flex flex-col">          
             <label htmlFor={props.id || props.name} className="self-start"><p>{label}</p></label>
-            <textarea className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200" {...field} {...props} />
+            <textarea className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200 bg-zinc-100" {...field} {...props} />
             <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
           </div>
         );

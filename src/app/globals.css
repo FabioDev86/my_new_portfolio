@@ -36,7 +36,7 @@
       @apply z-10; 
     }
     .error {
-      @apply dark:text-red-600; 
+      @apply text-red-600; 
       @apply text-xs;
       @apply md:text-sm;
       @apply lg:text-base;
