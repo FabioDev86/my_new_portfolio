@@ -45,42 +45,44 @@ export default function Contact(){
     return(
         <div id="contact">
             <h1 className="m-0 text-left px-10">Contact</h1>
-            <Formik 
-                initialValues = {{
-                    name: '', 
-                    email: '',
-                    message: ''
-                }}
-                validationSchema = {
-                    Yup.object({
-                        name: Yup.string().required("Name required"),
-                        email: Yup.string().email("Please insert valid email").required("Email required"),
-                        message: Yup.string().required("Please write your message")
-                    })
-                }
-                onSubmit = { values => {handleSubmit(values)}}
-            >
-                
-                <Form>
-                    <MyInput 
-                        label="NAME"
-                        name="name"
-                        type="text"
-                    />
-                    <MyInput 
-                        label="EMAIL"
-                        name="email"
-                        type="email"
-                    />
-                    <MyTextArea 
-                        label="MESSAGE"
-                        name="message"
-                        type="textarea"
-                    />
-                    <button type="submit" id="submit" className="dark:text-slate-200 my-10 sm:self-start sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">SUBMIT</button>
-                </Form>
-                
-             </Formik>
+            <div  className="sm:flex">
+                <p className="mx-0 my-5 text-left px-10 basis-1/2">I like challenging and ambitious projects. Let me know how I can help you: fill in the form, and I'll get back to you as soon as possible.</p>
+                <Formik 
+                    initialValues = {{
+                        name: '', 
+                        email: '',
+                        message: ''
+                    }}
+                    validationSchema = {
+                        Yup.object({
+                            name: Yup.string().required("Name required"),
+                            email: Yup.string().email("Please insert valid email").required("Email required"),
+                            message: Yup.string().required("Please write your message")
+                        })
+                    }
+                    onSubmit = { values => {handleSubmit(values)}}
+                >
+                    
+                    <Form className="basis-1/2"> 
+                        <MyInput 
+                            label="NAME"
+                            name="name"
+                            type="text"
+                        />
+                        <MyInput 
+                            label="EMAIL"
+                            name="email"
+                            type="email"
+                        />
+                        <MyTextArea 
+                            label="MESSAGE"
+                            name="message"
+                            type="textarea"
+                        />
+                        <button type="submit" id="submit" className="dark:text-slate-200 my-10 sm:self-start sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">SEND MESSAGE</button>
+                    </Form>                
+                </Formik>
+             </div>
         </div>
     );
 }
