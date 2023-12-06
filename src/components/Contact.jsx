@@ -40,8 +40,7 @@ export default function Contact(){
                 console.log(error.text);
             }
         );
-    }      
-    
+    }       
     return(
         <div id="contact">
             <h1 className="m-0 text-left px-10">Contact</h1>
