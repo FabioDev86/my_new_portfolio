@@ -10,7 +10,7 @@ export default function Contact(){
         const [field, meta] = useField(props);
         return (
             <div className="mx-10 flex flex-col  my-5">                
-                <label htmlFor={props.id || props.name} className="self-start"><p>{label}</p></label>
+                <label htmlFor={props.id || props.name} className="self-start"><p className="m-0">{label}</p></label>
                 <input className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200 bg-zinc-100" {...field} {...props} />                  
                 <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
             </div>
@@ -20,7 +20,7 @@ export default function Contact(){
         const [field, meta] = useField(props);
         return (
           <div className="mx-10 flex flex-col">          
-            <label htmlFor={props.id || props.name} className="self-start"><p>{label}</p></label>
+            <label htmlFor={props.id || props.name} className="self-start"><p className="m-0">{label}</p></label>
             <textarea className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200 bg-zinc-100" {...field} {...props} />
             <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
           </div>

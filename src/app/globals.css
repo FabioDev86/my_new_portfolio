@@ -25,6 +25,14 @@
       @apply font-bold;
       @apply sm:mx-10;
     }
+    h3 {
+      @apply text-zinc-500; 
+      @apply italic;
+      @apply text-xl;
+      @apply md:text-2xl;
+      @apply mx-10;
+      @apply font-bold;
+    }
     p {
       @apply dark:text-slate-200; 
       @apply text-xs;
