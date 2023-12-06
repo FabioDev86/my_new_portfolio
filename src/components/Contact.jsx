@@ -62,7 +62,7 @@ export default function Contact(){
                     onSubmit = { values => {handleSubmit(values)}}
                 >
                     
-                    <Form className="basis-1/2"> 
+                    <Form className="basis-1/2 sm:flex sm:flex-col"> 
                         <MyInput 
                             label="NAME"
                             name="name"
@@ -78,7 +78,7 @@ export default function Contact(){
                             name="message"
                             type="textarea"
                         />
-                        <button type="submit" id="submit" className="dark:text-slate-200 my-10 sm:self-start sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">SEND MESSAGE</button>
+                        <button type="submit" id="submit" className="dark:text-slate-200 my-10 self-end sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">SEND MESSAGE</button>
                     </Form>                
                 </Formik>
              </div>
