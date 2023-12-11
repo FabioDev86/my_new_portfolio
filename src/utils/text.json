@@ -16,9 +16,9 @@
             "deutsch" : "Ich bin ein Frontend-Entwickler mit Spezialisierung auf React"
         },
         "motto" : {
-            "english" : "\"Maybe I don't know how to do it yet, but I will figure it out\"",
-            "italiano" : "\"Forse non so ancora come farlo, ma troverò un modo\"",
-            "deutsch" : "\"Vielleicht weiß ich noch nicht, wie ich es machen soll, aber ich werde es herausfinden\""
+            "english" : "Maybe I don't know how to do it yet, but I will figure it out",
+            "italiano" : "Forse non so ancora come farlo, ma troverò un modo",
+            "deutsch" : "Vielleicht weiß ich noch nicht, wie ich es machen soll, aber ich werde es herausfinden"
         },
         "profile_alt" : {
             "english" : "Profile image",
@@ -31,6 +31,15 @@
             "deutsch" : "Kontaktiere mich"
         }   
     },
+
+    "skills" : {
+        "generico" : {
+            "english" : "Generic",
+            "italiano" : "Generico",
+            "deutsch" : "Generisch"
+        }
+    },
+    
 
     "header_text" : {
         "presentation" : {
