@@ -1,0 +1,139 @@
+{
+    "hero" : {
+        "greetings" : {
+            "english" : "Nice to meet you",
+            "italiano" : "Felice di conoscerti",
+            "deutsch" : "Schön, dich kennenzulernen"
+        },
+        "im" : {
+            "english" : "I'm",
+            "italiano" : "Sono",
+            "deutsch" : "Ich bin"
+        },
+        "job" : {
+            "english" : "I'm a front end developer specialized in React",
+            "italiano" : "Sono uno sviluppatore front end specializzato in React",
+            "deutsch" : "Ich bin ein Frontend-Entwickler mit Spezialisierung auf React"
+        },
+        "motto" : {
+            "english" : "\"Maybe I don't know how to do it yet, but I will figure it out\"",
+            "italiano" : "\"Forse non so ancora come farlo, ma troverò un modo\"",
+            "deutsch" : "\"Vielleicht weiß ich noch nicht, wie ich es machen soll, aber ich werde es herausfinden\""
+        },
+        "profile_alt" : {
+            "english" : "Profile image",
+            "italiano" : "Immagine di profilo",
+            "deutsch" : "Profilbild"
+        },  
+        "button" : {
+            "english" : "Contact me",
+            "italiano" : "Contattami",
+            "deutsch" : "Kontaktiere mich"
+        }   
+    },
+
+    "header_text" : {
+        "presentation" : {
+            "english" : ["Hi, I'm ", "Fabio Bauleo", ", a front end developer specialized in React"],
+            "italiano" : ["Ciao, sono ", "Fabio Bauleo", ", uno sviluppatore front end specializzato in React"],
+            "deutsch" : ["Hallo, ich bin ", "Fabio Bauleo", ", ein Frontend-Entwickler mit Spezialisierung auf React"]
+        },
+        "motto" : {
+            "english" : "\"Maybe I don't know how to do it yet, but I will figure it out\"",
+            "italiano" : "\"Forse non so ancora come farlo, ma troverò un modo\"",
+            "deutsch" : "\"Vielleicht weiß ich noch nicht, wie ich es machen soll, aber ich werde es herausfinden\""
+        },
+        "profile_alt" : {
+            "english" : "Profile image",
+            "italiano" : "Immagine di profilo",
+            "deutsch" : "Profilbild"
+        }        
+    },
+
+    "project_text" : {
+        "title" : {
+            "english" : ["My", " Projects"],
+            "italiano" : ["I miei ", "progetti"],
+            "deutsch" : ["Meine ", "Projekte"]
+        },
+        "sub_title" : {
+            "english" : "Here are some examples of what I can do for you",
+            "italiano" : "Ecco alcuni esempi di quello che posso fare per te",
+            "deutsch" : "Hier sind einige Beispiele dafür, was ich für Sie tun kann"
+        }
+    },
+
+    "tools_text" : {
+        "english" : ["My ", "skills"],
+        "italiano" : ["Le mie ", "skills"],
+        "deutsch" : ["Meine ", "skills"]
+    },
+
+    "about_text" : {
+        "header" : {
+            "english" : ["What about ", "me?"],
+            "italiano" : ["A proposito di ", "me!"],
+            "deutsch" : ["Und ", "Ich?"]
+        },
+        "body" : {
+            "english" : ["I'm really enthusiastic about my new journey as a developer.\n\n It all begun with the interest of mine about building a personal website, starting with the ", "Mozilla's front-end web developer learning pathway", " and then the ", "Coursera's Meta Front-End Developer Professional Certificate.", "\n\n Someone would say that learning how to code at my age is difficult, but I'm built to do difficult things:\nGet up at 5am, study, than go to work at 8am.\n\n As a former personal trainer I'm always looking forward to add value to people and I don't like to feel like a liability.\nStrength is my most important value wich I always tried to pass on people. It can seem a strange analogy but I feel the same with the code I build: I want it to be solid and robust.\n\n I'm based in Italy but I'm ready to move any time or work from remote.\n\nAnother challenge that exites me is learning a new language. I'm already fluent in english and I'm currently tackling the german idiom.\n\nPerpetually engaged in my self improvement, being that phisical or mental, I enjoy strenous training as much as reading books.\n\nLooking forward to interesting and challenging projects, feel free to write me an email at fabio.bauleo.developer@gmail.com or using the form below."],
+            "italiano" : ["Sono veramente entusiasta della mia nuova avventura da developer.\n\n Tutto è iniziato con la mia volontà di costruirmi un sito internet personale, partendo dal ", "Mozilla's front-end web developer learning pathway", " e successivamente la certificazione ", "Coursera's Meta Front-End Developer Professional Certificate.", "\n\n Qualcuno potrebbe dire che imparare a programmare alla mia età è difficile, ma io sono fatto per affrontare sfide difficili:\nSveglia alle 5 del mattino, studio, poi a lavoro per le 8.\n\n Grazie alla mia esperienza come personal trainer ho sviluppato un forte interesse nell'aggiungere valore alla vita delle persone e odio sentirmi un peso per gli altri\nLa forza è il mio valore più importante e cerco sempre di infonderla negli altri. Può sembrare una strana analogia ma provo la stessa cosa nei confronti del codice che scrivo: Voglio che sia solido e robusto.\n\n Vivo in Italia ma sono pronto a spostarmi in ogni momento o a lavorare da remoto.\n\nUn'altra sfida che mi motiva è l'apprendimento di una nuova lingua. Sono già fluente in inglese e sto aggressivamente imparando la lingua tedesca.\n\nCostantemente impegnato nel miglioramento personale, sia esso fisico o mentale, adoro gli allenamenti intensi allo stesso modo della lettura dei libri\n\nCerco progetti interessanti ed impegnativi, sentiti libero di scrivere una email a fabio.bauleo.developer@gmail.com o di usare la form qui in basso."],
+            "deutsch" : ["(Die deutsche Übersetzung kann einige Fehler enthalten. Ich lerne immernoch.)\n\nIch bin wirklich begeistert von meiner neuen Reise als Entwickler.\n\n Alles begann mit meinem Interesse an der Erstellung einer persönlichen Website, angefangen mit dem ", "Mozilla's front-end web developer learning pathway", " und dann dem ", "Coursera's Meta Front-End Developer Professional Certificate.", "\n\n Jemand würde sagen, dass es in meinem Alter schwierig ist, das Programmieren zu lernen, aber ich bin für schwierige Dinge gebaut:\nUm 5 Uhr morgens aufstehen, lernen und dann um 8 Uhr zur Arbeit gehen.\n\n Als Ehemaliger Als Personal Trainer freue ich mich immer darauf, den Menschen einen Mehrwert zu bieten, und fühle mich nicht gern als Belastung.\nStärke ist mein wichtigster Wert, den ich immer versucht habe, den Menschen weiterzugeben. Es mag wie eine seltsame Analogie klingen, aber mir geht es bei dem Code, den ich erstelle, genauso: Ich möchte, dass er solide und robust ist.\n\n Ich lebe in Italien, bin aber jederzeit bereit, umzuziehen oder von unterwegs aus zu arbeiten. \n\nEine weitere Herausforderung, die mich begeistert, ist das Erlernen einer neuen Sprache. Ich spreche bereits fließend Englisch und beschäftige mich derzeit mit der deutschen Sprache.\n\nIch bin ständig damit beschäftigt, mich körperlich oder geistig zu verbessern, und genieße anstrengendes Training ebenso wie das Lesen von Büchern.\n\nIch freue mich auf interessante Dinge Für anspruchsvolle Projekte schreiben Sie mir gerne eine E-Mail an fabio.bauleo.developer@gmail.com oder verwenden Sie das untenstehende Formular."]
+        }
+    },
+    
+    "contacts_text" : {
+        "header" : {
+            "english" : ["Contact ", "me"],
+            "italiano" : ["Contatta", "mi"],
+            "deutsch" : ["Kontaktiere ", "mich"]
+        },
+        "name_label" : {
+            "english" : "Your name",
+            "italiano" : "Il tuo nome",
+            "deutsch" : "Ihre Name"
+        },
+        "email_label" : {
+            "english" : "Your e-mail",
+            "italiano" : "La tua e-mail",
+            "deutsch" : "Ihre e-mail"
+        },
+        "message_label" : {
+            "english" : "Your message",
+            "italiano" : "Il tuo messaggio",
+            "deutsch" : "Ihre Nachricht"
+        },
+        "required_name" : {
+            "english" : "Please enter your name",
+            "italiano" : "Per favore inserisci il tuo nome",
+            "deutsch" : "Bitte geben Sie Ihren Namen ein" 
+        },
+        "required_email" : {
+            "english" : "Please enter your email",
+            "italiano" : "Per favore inserisci la tua email",
+            "deutsch" : "Bitte geben Sie Ihre Email ein"
+        }, 
+        "required_message" : {
+            "english" : "Please write a message",
+            "italiano" : "Per favore scrivi un messaggio",
+            "deutsch" : "Bitte schreiben Sie eine Nachricht"
+        },
+        "invalid_email" : {
+            "english" : "It seems your email address is invalid",
+            "italiano" : "Sembra che il tuo indirizzo email non sia corretto",
+            "deutsch" : "Offenbar ist Ihre E-Mail-Adresse ungültig"
+        },
+        "alert_msg" : {
+            "english" : "Your message has been successfully sent",
+            "italiano" : "Il tuo messaggio è stato inviato correttamente",
+            "deutch" : "Ihre Nachricht wurde erfolgreich gesendet"
+        },
+        "button" : {
+            "english" : "Submit",
+            "italiano" : "Invia",
+            "deutch" : "Einsenden"
+        }
+    }
+
+
+}
