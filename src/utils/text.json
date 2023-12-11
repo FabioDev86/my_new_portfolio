@@ -33,13 +33,31 @@
     },
 
     "skills" : {
-        "generico" : {
+        "generic" : {
             "english" : "Generic",
             "italiano" : "Generico",
             "deutsch" : "Generisch"
         }
     },
     
+    "certifications" : {
+        "title" : {
+            "english" : "Certifications",
+            "italiano" : "Certificazioni",
+            "deutsch" : "Zertifizierungen"
+        },
+        "completed" : {
+            "english" : "Completed",
+            "italiano" : "Completata",
+            "deutsch" : "Vollendet"
+        },
+        "in_progress" : {
+            "english" : "In progress",
+            "italiano" : "In corso",
+            "deutsch" : "Im Gange"
+        }
+    },
+
 
     "header_text" : {
         "presentation" : {
