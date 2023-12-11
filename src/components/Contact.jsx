@@ -55,7 +55,7 @@ export default function Contact(){
                     validationSchema = {
                         Yup.object({
                             name: Yup.string().required("Name required"),
-                            email: Yup.string().email("Please insert valid email").required("Email required"),
+                            email: Yup.string().email("Please insert a valid email").required("Email required"),
                             message: Yup.string().required("Please write your message")
                         })
                     }

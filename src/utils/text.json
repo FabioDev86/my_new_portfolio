@@ -57,6 +57,56 @@
             "deutsch" : "Im Gange"
         }
     },
+    
+    "contact" : {
+        "title" : {
+            "english" : "Contacts",
+            "italiano" : "Contatti",
+            "deutsch" : "Kontakt"
+        },
+        "message" : {
+            "english" : "I like challenging and ambitious projects. Let me know how I can help you: fill in the form, and I'll get back to you as soon as possible.",
+            "italiano" : "Mi piacciono i progetti impegnativi e ambiziosi. Fammi sapere come posso aiutarti: compila il modulo e ti ricontatterò il prima possibile.",
+            "deutsch" : "Ich mag herausfordernde und ehrgeizige Projekte. Lassen Sie mich wissen, wie ich Ihnen helfen kann: Füllen Sie das Formular aus und ich werde mich so schnell wie möglich bei Ihnen melden."
+        },
+        "name_label" : {
+            "english" : "NAME",
+            "italiano" : "NOME",
+            "deutsch" : "NAME"
+        },
+        "message_label" : {
+            "english" : "MESSAGE",
+            "italiano" : "MESSAGGIO",
+            "deutsch" : "NACHRICHT"
+        },
+        "button" : {
+            "english" : "SEND MESSAGE",
+            "italiano" : "INVIA MESSAGGIO",
+            "deutsch" : "NACHRICHT SENDEN"
+        },
+        "errors" : {
+            "name_required" : {
+                "english" : "Name required",
+                "italiano" : "Nome obbligatorio",
+                "deutsch" : "Name erforderlich"
+            },
+            "email_required" : {
+                "english" : "Email required",
+                "italiano" : "Email obbligatorio",
+                "deutsch" : "Email erforderlich"
+            },
+            "valid_email" : {
+                "english" : "Please insert a valid email",
+                "italiano" : "Per favore inserisci una email valida",
+                "deutsch" : "Bitte geben Sie eine gültige email ein"
+            },
+            "message_required" : {
+                "english" : "Please write your message",
+                "italiano" : "Per favore scrivi il tuo messaggio",
+                "deutsch" : "Bitte schreiben Sie Ihre Nachricht"
+            }
+        }
+    },
 
 
     "header_text" : {
