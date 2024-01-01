@@ -3,9 +3,12 @@ import { useState } from "react";
 import {useField, Form, Formik } from 'formik';
 import * as Yup from 'yup';
 import emailjs from '@emailjs/browser';
+import { useLanguage } from "@/contexts/LanguageProvider";
+import text from "../utils/text.json";
 
 export default function Contact(){
-
+    const {language} = useLanguage();
+    
     const MyInput = ({ label, ...props }) => {
         const [field, meta] = useField(props);
         return (
@@ -43,9 +46,17 @@ export default function Contact(){
     }       
     return(
         <div id="contact">
-            <h1 className="m-0 text-left px-10">Contact</h1>
+            <h1 className="m-0 text-left px-10">{
+                    language === 'english' ? text.contact.title.english :
+                    language === 'italiano' ? text.contact.title.italiano :
+                    text.contact.title.deutsch
+                }</h1>
             <div  className="sm:flex">
-                <p className="mx-0 my-5 text-left px-10 basis-1/2">I like challenging and ambitious projects. Let me know how I can help you: fill in the form, and I'll get back to you as soon as possible.</p>
+                <p className="mx-0 my-5 text-left px-10 basis-1/2">{
+                    language === 'english' ? text.contact.message.english :
+                    language === 'italiano' ? text.contact.message.italiano :
+                    text.contact.message.deutsch
+                }</p>
                 <Formik 
                     initialValues = {{
                         name: '', 
@@ -54,9 +65,24 @@ export default function Contact(){
                     }}
                     validationSchema = {
                         Yup.object({
-                            name: Yup.string().required("Name required"),
-                            email: Yup.string().email("Please insert a valid email").required("Email required"),
-                            message: Yup.string().required("Please write your message")
+                            name: Yup.string().required(
+                                language === 'english' ? text.contact.errors.name_required.english :
+                                language === 'italiano' ? text.contact.errors.name_required.italiano :
+                                text.contact.errors.name_required.deutsch
+                            ),
+                            email: Yup.string().email(
+                                    language === 'english' ? text.contact.errors.valid_email.english :
+                                    language === 'italiano' ? text.contact.errors.valid_email.italiano :
+                                    text.contact.errors.valid_email.deutsch
+                                )
+                                .required(
+                                    language === 'english' ? text.contact.errors.email_required.english :
+                                    language === 'italiano' ? text.contact.errors.email_required.italiano :
+                                    text.contact.errors.email_required.deutsch),
+                            message: Yup.string().required(
+                                language === 'english' ? text.contact.errors.message_required.english :
+                                language === 'italiano' ? text.contact.errors.message_required.italiano :
+                                text.contact.errors.message_required.deutsch)
                         })
                     }
                     onSubmit = { values => {handleSubmit(values)}}
@@ -64,7 +90,11 @@ export default function Contact(){
                     
                     <Form className="basis-1/2 sm:flex sm:flex-col"> 
                         <MyInput 
-                            label="NAME"
+                            label={
+                                language === 'english' ? text.contact.name_label.english :
+                                language === 'italiano' ? text.contact.name_label.italiano :
+                                text.contact.name_label.deutsch
+                            }
                             name="name"
                             type="text"
                         />
@@ -74,11 +104,19 @@ export default function Contact(){
                             type="email"
                         />
                         <MyTextArea 
-                            label="MESSAGE"
+                            label={
+                                language === 'english' ? text.contact.message_label.english :
+                                language === 'italiano' ? text.contact.message_label.italiano :
+                                text.contact.message_label.deutsch
+                            }
                             name="message"
                             type="textarea"
                         />
-                        <button type="submit" id="submit" className="dark:text-slate-200 my-10 self-end sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">SEND MESSAGE</button>
+                        <button type="submit" id="submit" className="dark:text-slate-200 my-10 self-end sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">{
+                                language === 'english' ? text.contact.button.english :
+                                language === 'italiano' ? text.contact.button.italiano :
+                                text.contact.button.deutsch
+                            }</button>
                     </Form>                
                 </Formik>
              </div>

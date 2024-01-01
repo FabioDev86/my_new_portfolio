@@ -92,7 +92,7 @@
             },
             "email_required" : {
                 "english" : "Email required",
-                "italiano" : "Email obbligatorio",
+                "italiano" : "Email obbligatoria",
                 "deutsch" : "Email erforderlich"
             },
             "valid_email" : {
