@@ -1,11 +1,13 @@
 "use client";
 
+import { useLanguage } from "@/contexts/LanguageProvider";
 import Image from "next/image";
 import { useState } from "react";
 
 
 export default function Header(){
     const [dark, setDark] = useState(true);
+    const {changeLanguage} = useLanguage();
     function switchTheme () {
         // This function has to set the class of the html element to dark
         dark ? document.documentElement.classList.remove('dark') : document.documentElement.classList.add('dark');
@@ -20,15 +22,15 @@ export default function Header(){
                     src={ dark ? "/light.svg" : "/dark.svg"}
                     width={30}
                     height={30}
-                    alt="My profile picture"
+                    alt="theme"
                     onClick={() => {switchTheme()}}
                 />
                 <Image 
                     src={ dark ? "/dark_language.svg" : "/language.svg"}
                     width={30}
                     height={30}
-                    alt="My profile picture"
-                    onClick={() => {switchTheme()}}
+                    alt="language"
+                    onClick={() => {changeLanguage('italiano')}}
                 />
             </div>   
             <div className='flex gap-4 item-center justify-center'>              

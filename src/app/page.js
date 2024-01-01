@@ -14,20 +14,20 @@ export default function Home() {
   return (
     <main className="bg-zinc-100 dark:bg-stone-900">
       <LanguageProvider>
-      <Header />
-      <Hero />
-      <hr/>
-      <Skills />
-      <hr/>
-      <Certifications />
-      <hr/>
-      <Projects />
-      <hr/>
-      <About />
-      <hr/>
-      <Contact />
-      <hr/>
-      <Footer />
+        <Header />
+        <Hero />
+        <hr/>
+        <Skills />
+        <hr/>
+        <Certifications />
+        <hr/>
+        <Projects />
+        <hr/>
+        <About />
+        <hr/>
+        <Contact />
+        <hr/>
+        <Footer />
       </LanguageProvider>
     </main>
   )
