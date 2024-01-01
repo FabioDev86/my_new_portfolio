@@ -1,8 +1,11 @@
 'use client'
 import { useState } from "react";
+import { useLanguage } from "@/contexts/LanguageProvider";
+import text from "../utils/text.json";
 
 export default function Skills(){
     const[hidden, setHidden] = useState(true);
+    const {language} = useLanguage();
     return(
         <div>
             <div className="flex justify-between px-10 items-center">
@@ -16,7 +19,11 @@ export default function Skills(){
                 <div className="flex justify-around px-10 items-center p-1 mb-7">
                     <p className="frontend">Front End</p>
                     <p className="backend">Back End</p>
-                    <p className="utility">Generic</p>
+                    <p className="utility">{
+                        language === 'english' ? text.skills.generic.english :
+                        language === 'italiano' ? text.skills.generic.italiano :
+                        text.skills.generic.deutsch
+                    }</p>
                 </div>
                 <div className="grid sm:grid-cols-3 lg:grid-cols-4">
                     <h2 className="frontend">HTML</h2>
