@@ -5,7 +5,7 @@ import { useLanguage } from "@/contexts/LanguageProvider";
 export default function Hero(){     
     const {language} = useLanguage(); 
     return(
-        <div>
+        <div className="mt-10">
             <div className="sm:text-left sm:flex flex-row-reverse">
                 <Image 
                     src="/hero.jpg"
