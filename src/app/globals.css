@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
     html {
       text-align: center;
@@ -72,8 +70,5 @@
       @apply decoration-stone-400;
       @apply underline-offset-8;
       @apply decoration-4;
-    }
-    
-
-    
+    }    
 }
