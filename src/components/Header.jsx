@@ -18,7 +18,7 @@ export default function Header(){
     }
     return(
         <div>
-            <header className='flex flex-col p-10 sm:flex-row justify-between item-center gap-3'>                
+            <header id="header" className='flex flex-col p-10 sm:flex-row justify-between item-center gap-3'>                
                 <div className='flex gap-3 justify-center'>
                     <h1 className='text-2xl m-0 p-0 dark:text-slate-200'>fabiobauleo</h1> 
                     <Image 
