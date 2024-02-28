@@ -5,7 +5,7 @@ import { useLanguage } from "@/contexts/LanguageProvider";
 export default function Hero(){     
     const {language} = useLanguage(); 
     return(        
-        <div className="flex flex-col gap-10 sm:text-left sm:flex-row-reverse">
+        <div className="flex flex-col gap-10 sm:text-left sm:flex-row-reverse mt-10">
             <Image 
                 src="/hero.jpg"
                 width={200}
