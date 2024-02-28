@@ -11,7 +11,7 @@ export default function Hero(){
                 width={200}
                 height={300}
                 alt="My profile picture"
-                className="mx-auto grow w-1/2 max-w-xs z-0"
+                className="mx-auto grow w-1/2 max-w-xs z-0 shadow-lg dark:shadow-stone-500"
             />
             <div className="flex flex-col justify-between gap-5">
                 <div>

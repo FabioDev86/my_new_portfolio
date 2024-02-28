@@ -16,7 +16,7 @@ export default function Home() {
       <LanguageProvider>
         <Header />
         <Hero />
-        <hr/>
+        <hr className="mt-10"/>
         <Skills />
         <hr/>
         <Certifications />

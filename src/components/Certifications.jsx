@@ -38,21 +38,21 @@ export default function Certifications(){
                         width={500}
                         height={500}
                         alt="Meta Front End Developer Certification"
-                        className="mx-auto my-3 w-3/4 border-4 border-emerald-400"
+                        className="mx-auto my-3 w-3/4 border-4 border-emerald-400 shadow-lg dark:shadow-stone-500"
                     />
                      <Image 
                         src="/cyber_security.png"
                         width={500}
                         height={500}
                         alt="Google Cyber Security Certification"
-                        className="mx-auto w-3/4 my-3 border-4 border-emerald-400"
+                        className="mx-auto w-3/4 my-3 border-4 border-emerald-400 shadow-lg dark:shadow-stone-500"
                     />
                     <Image 
                         src="/backend_placeholder.jpeg"
                         width={500}
                         height={500}
                         alt="Meta Back End Developer Certification"
-                        className="mx-auto my-3 w-3/4 border-4 border-amber-300" 
+                        className="mx-auto my-3 w-3/4 border-4 border-amber-300 shadow-lg dark:shadow-stone-500" 
                     />
                 </div>
 
