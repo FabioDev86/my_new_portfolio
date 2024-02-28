@@ -1,13 +1,20 @@
 'use client'
 import { useState } from "react";
 import Image from "next/image";
+import { useLanguage } from "@/contexts/LanguageProvider";
+import text from "../utils/text.json";
 
 export default function Projects(){
     const[hidden, setHidden] = useState(true);
+    const {language} = useLanguage();
     return(
         <div>
             <div className="flex justify-between px-10 items-center">
-                <h1 className="m-0">Projects</h1>                
+                <h1 className="m-0">{
+                        language === 'english' ? text.projects.english_title :
+                        language === 'italiano' ? text.projects.italian_title :
+                        text.projects.german_title
+                    }</h1>                
                 <svg onClick = {() => setHidden(!hidden)} width="80px" height="80px" viewBox="0 0 24 24" className={"dark:fill-slate-200 transition ease-in-out delay-150 " + (!hidden ? "rotate-180" : "") } xmlns="http://www.w3.org/2000/svg">
                     <path d="M17 9.5L12 14.5L7 9.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
