@@ -118,7 +118,10 @@
     "projects" : {  
         "english_title" : "Projects",
         "italian_title" : "Progetti", 
-        "german_title" : "Projekte"
+        "german_title" : "Projekte",
+        "english_cta" : "Click on the image to see the deployed version.",
+        "italian_cta" : "Clicca sull'immagine per vedere la versione deployed",
+        "german_cta" : "Klicken Sie auf das Bild, um die deployed Version anzuzeigen"
     }
 
 }
