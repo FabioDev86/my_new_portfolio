@@ -121,7 +121,12 @@
         "german_title" : "Projekte",
         "english_cta" : "Click on the image to see the deployed version.",
         "italian_cta" : "Clicca sull'immagine per vedere la versione deployed",
-        "german_cta" : "Klicken Sie auf das Bild, um die deployed Version anzuzeigen"
+        "german_cta" : "Klicken Sie auf das Bild, um die deployed Version anzuzeigen",
+        "to_do_list" : {
+            "english" : "This is a simple to do list web app. For now it is not yet fullstack so you can't actually save your list of activities. The frontend-only version simulates the beaviour of adding and removing tasks.",
+            "italian" : "Questa è una semplice to do list web app. Per ora non è ancora fullstack quindi non puoi salvare l'elenco delle attività. La versione frontend-only simula il comportamento di aggiunta e rimozione di attività.",
+            "german" : "Dies ist eine einfach zu erstellende Listen-Web-App. Im Moment ist es noch kein Fullstack, sodass Sie Ihre Aktivitätsliste nicht wirklich speichern können. Die reine Frontend-Version simuliert das Verhalten beim Hinzufügen und Entfernen von Aufgaben."
+        }
     }
 
 }
