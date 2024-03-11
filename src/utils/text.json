@@ -126,6 +126,11 @@
             "english" : "This is a simple to do list web app. For now it is not yet fullstack so you can't actually save your list of activities. The frontend-only version simulates the beaviour of adding and removing tasks.",
             "italian" : "Questa è una semplice to do list web app. Per ora non è ancora fullstack quindi non puoi salvare l'elenco delle attività. La versione frontend-only simula il comportamento di aggiunta e rimozione di attività.",
             "german" : "Dies ist eine einfach zu erstellende Listen-Web-App. Im Moment ist es noch kein Fullstack, sodass Sie Ihre Aktivitätsliste nicht wirklich speichern können. Die reine Frontend-Version simuliert das Verhalten beim Hinzufügen und Entfernen von Aufgaben."
+        },
+        "password_generator" : {
+            "english" : "With this web app you can create or evaluate a password. The algorithm will assign a robustness level to the password: weak, medium, strong.",
+            "italian" : "Con questa web app puoi creare o valutare una password. L'algoritmo assegnerà un livello di robustezza alla password: debole, medio, forte.",
+            "german" : "Mit dieser Web-App können Sie ein Passwort erstellen oder auswerten. Der Algorithmus weist dem Passwort eine Robustheitsstufe zu: schwach, mittel, stark."
         }
     }
 
