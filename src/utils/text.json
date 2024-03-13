@@ -131,6 +131,11 @@
             "english" : "With this web app you can create or evaluate a password. The algorithm will assign a robustness level to the password: weak, medium, strong.",
             "italian" : "Con questa web app puoi creare o valutare una password. L'algoritmo assegnerà un livello di robustezza alla password: debole, medio, forte.",
             "german" : "Mit dieser Web-App können Sie ein Passwort erstellen oder auswerten. Der Algorithmus weist dem Passwort eine Robustheitsstufe zu: schwach, mittel, stark."
+        },
+        "old_portfolio" : {
+            "english" : "This was my very first Portfolio buil right after finishing the Meta Front End Certificate on Coursera.",
+            "italian" : "Questo è stato il mio primissimo portfolio creato subito dopo aver terminato la certificazione Meta Front End su Coursera.",
+            "german" : "Dies war mein allererstes Portfolio, das direkt nach Abschluss der Meta Front End-Zertifizierung auf Coursera erstellt wurde."
         }
     }
 
