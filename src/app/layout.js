@@ -7,6 +7,7 @@ const sg = Space_Grotesk({ subsets: ['latin'] })
 export const metadata = {
   title: 'Fabio Bauleo',
   description: 'Fabio Bauleo portfolio',
+  metadataBase: new URL("https://fabio-bauleo-portfolio.vercel.app/"),
   openGraph: {    
     images: [
       {
