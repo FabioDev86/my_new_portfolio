@@ -1,11 +1,26 @@
 import { Space_Grotesk } from 'next/font/google'
 import './globals.css'
+import socialImage from './opengraph-image.png'
 
 const sg = Space_Grotesk({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Fabio Bauleo',
   description: 'Fabio Bauleo portfolio',
+  openGraph: {    
+    images: [
+      {
+        url: socialImage.src,
+      },
+    ],
+  },
+  twitter: {
+    images: [
+      {
+        url: socialImage.src,
+      },
+    ],
+  },
 }
 
 export default function RootLayout({ children }) {
