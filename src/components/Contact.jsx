@@ -8,14 +8,15 @@ import text from "../utils/text.json";
 
 export default function Contact(){
     const {language} = useLanguage();
+    const [submitStatus, setSubmitStatus] = useState({ state: 'idle', message: '' });
     
     const MyInput = ({ label, ...props }) => {
         const [field, meta] = useField(props);
         return (
             <div className="mx-10 flex flex-col  my-5">                
                 <label htmlFor={props.id || props.name} className="self-start"><p className="m-0">{label}</p></label>
-                <input className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200 bg-zinc-100" {...field} {...props} />                  
-                <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
+                <input className="border-b-4 outline-none dark:bg-stone-900 dark:caret-emerald-400 dark:text-slate-200 bg-zinc-50 border-zinc-200 focus:border-emerald-500 transition-colors py-2" {...field} {...props} />                  
+                <div className="text-red-500 text-sm mt-1 h-5 text-left">{ meta.touched && meta.error ? meta.error : null }</div>
             </div>
         );
     };
@@ -24,12 +25,13 @@ export default function Contact(){
         return (
           <div className="mx-10 flex flex-col">          
             <label htmlFor={props.id || props.name} className="self-start"><p className="m-0">{label}</p></label>
-            <textarea className="border-b-4 outline-none dark:bg-stone-900 dark:caret-slate-200 dark:text-slate-200 bg-zinc-100" {...field} {...props} />
-            <div className="error">{ meta.touched && meta.error ? meta.error : null }</div>
+            <textarea className="border-b-4 outline-none dark:bg-stone-900 dark:caret-emerald-400 dark:text-slate-200 bg-zinc-50 border-zinc-200 focus:border-emerald-500 transition-colors py-2 min-h-[100px]" {...field} {...props} />
+            <div className="text-red-500 text-sm mt-1 h-5 text-left">{ meta.touched && meta.error ? meta.error : null }</div>
           </div>
         );
     };
-    async function handleSubmit(values){
+    async function handleSubmit(values, { setSubmitting, resetForm }){
+        setSubmitStatus({ state: 'submitting', message: '' });
         let params = {
             to_name : "Fabio",
             from_name : values.name,
@@ -38,9 +40,14 @@ export default function Contact(){
         };
         emailjs.send('service_wsxg3dy', 'template_59d3ypj', params, 'n629mPkgzuzLZfXwH')
             .then((result) => {
-                alert("Your email has been sent");
+                setSubmitStatus({ state: 'success', message: 'Message sent successfully!' });
+                setSubmitting(false);
+                resetForm();
+                setTimeout(() => setSubmitStatus({ state: 'idle', message: '' }), 5000);
             }, (error) => {
-                console.log(error.text);
+                console.error(error);
+                setSubmitStatus({ state: 'error', message: 'Failed to send message. Please try again.' });
+                setSubmitting(false);
             }
         );
     }       
@@ -85,10 +92,10 @@ export default function Contact(){
                                 text.contact.errors.message_required.deutsch)
                         })
                     }
-                    onSubmit = { values => {handleSubmit(values)}}
+                    onSubmit = { (values, formikHelpers) => {handleSubmit(values, formikHelpers)}}
                 >
-                    
-                    <Form className="basis-1/2 sm:flex sm:flex-col"> 
+                    {({ isSubmitting }) => (
+                    <Form className="basis-1/2 sm:flex sm:flex-col mx-4 sm:mx-0 bg-white dark:bg-stone-900 border border-zinc-100 dark:border-stone-800 p-6 sm:p-8 rounded-3xl shadow-sm"> 
                         <MyInput 
                             label={
                                 language === 'english' ? text.contact.name_label.english :
@@ -112,12 +119,20 @@ export default function Contact(){
                             name="message"
                             type="textarea"
                         />
-                        <button type="submit" id="submit" className="dark:text-slate-200 my-10 self-end sm:text-xl sm:mx-10 underline decoration-emerald-400 underline-offset-4 decoration-4">{
-                                language === 'english' ? text.contact.button.english :
-                                language === 'italiano' ? text.contact.button.italiano :
-                                text.contact.button.deutsch
-                            }</button>
-                    </Form>                
+                        <div className="flex flex-col sm:flex-row justify-between items-center sm:mx-10 mt-8 gap-4">
+                            {submitStatus.state === 'success' && <p className="text-emerald-500 m-0 font-medium">{submitStatus.message}</p>}
+                            {submitStatus.state === 'error' && <p className="text-red-500 m-0 font-medium">{submitStatus.message}</p>}
+                            <div className="flex-1"></div>
+                            <button disabled={isSubmitting || submitStatus.state === 'submitting'} type="submit" id="submit" className={`bg-emerald-500 hover:bg-emerald-600 text-white font-medium py-3 px-8 rounded-full transition-all duration-300 shadow-md hover:shadow-lg sm:text-lg hover:-translate-y-1 ${(isSubmitting || submitStatus.state === 'submitting') ? 'opacity-70 cursor-not-allowed transform-none' : ''}`}>
+                                {isSubmitting || submitStatus.state === 'submitting' ? 'Sending...' : (
+                                    language === 'english' ? text.contact.button.english :
+                                    language === 'italiano' ? text.contact.button.italiano :
+                                    text.contact.button.deutsch
+                                )}
+                            </button>
+                        </div>
+                    </Form>
+                    )}                
                 </Formik>
              </div>
         </div>
