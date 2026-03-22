@@ -3,72 +3,69 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-      text-align: center;
-    }   
-    h1 {
-      @apply dark:text-slate-200; 
-      @apply text-3xl;
-      @apply md:text-4xl;
-      @apply lg:text-5xl;
-      @apply sm:mx-10;
-      @apply py-1;
-      @apply font-bold;
-    }
-    h2 {
-      @apply dark:text-slate-200; 
-      @apply text-2xl;
-      @apply md:text-3xl;
-      @apply py-1;
-      @apply font-bold;
-      @apply sm:mx-10;
-    }
-    h3 {
-      @apply text-zinc-500; 
-      @apply italic;
-      @apply text-xl;
-      @apply md:text-2xl;
-      @apply mx-10;
-      @apply font-bold;
-    }
-    p {
-      @apply dark:text-slate-200; 
-      @apply text-xs;
-      @apply md:text-sm;
-      @apply lg:text-base;
-      @apply py-1;
-      @apply font-bold;
-      @apply sm:mx-10;
-      @apply z-10; 
-    }
-    .error {
-      @apply text-red-600; 
-      @apply text-xs;
-      @apply md:text-sm;
-      @apply lg:text-base;
-      @apply font-bold;
-      @apply self-end;
-      @apply animate-pulse;
-    }
-    hr {
-      @apply m-5;
-    }
-    .frontend {
-      @apply underline;
-      @apply decoration-emerald-400;
-      @apply underline-offset-8;
-      @apply decoration-4;
-    }
-    .backend {
-      @apply underline;
-      @apply decoration-amber-300;
-      @apply underline-offset-8;
-      @apply decoration-4;
-    }
-    .utility{
-      @apply underline;
-      @apply decoration-stone-400;
-      @apply underline-offset-8;
-      @apply decoration-4;
-    }    
+  html {
+    text-align: center;
+  }
+
+  h1 {
+    @apply dark:text-slate-200;
+    @apply text-3xl;
+    @apply md:text-4xl;
+    @apply lg:text-5xl;
+    @apply sm:mx-10;
+    @apply py-1;
+    @apply font-bold;
+  }
+
+  h2 {
+    @apply dark:text-slate-200;
+    @apply text-2xl;
+    @apply md:text-3xl;
+    @apply py-1;
+    @apply font-bold;
+    @apply sm:mx-10;
+  }
+
+  h3 {
+    @apply text-zinc-500;
+    @apply italic;
+    @apply text-xl;
+    @apply md:text-2xl;
+    @apply mx-10;
+    @apply font-bold;
+  }
+
+  p {
+    @apply dark:text-slate-200;
+    @apply text-xs;
+    @apply md:text-sm;
+    @apply lg:text-base;
+    @apply py-1;
+    @apply font-bold;
+    @apply sm:mx-10;
+    @apply z-10;
+  }
+
+  .error {
+    @apply text-red-600;
+    @apply text-xs;
+    @apply md:text-sm;
+    @apply lg:text-base;
+    @apply font-bold;
+    @apply self-end;
+    @apply animate-pulse;
+  }
+
+  hr {
+    @apply hidden;
+  }
+
+  .frontend,
+  .backend,
+  .utility,
+  .electronics {
+    @apply text-emerald-600 dark:text-emerald-400;
+    @apply font-medium;
+    @apply transition-colors duration-300;
+  }
 }

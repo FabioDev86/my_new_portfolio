@@ -1,142 +1,185 @@
 {
-    "hero" : {
-        "greetings" : {
-            "english" : "Nice to meet you",
-            "italiano" : "Felice di conoscerti",
-            "deutsch" : "Schön, dich kennenzulernen"
+    "hero": {
+        "greetings": {
+            "english": "Nice to meet you",
+            "italiano": "Felice di conoscerti",
+            "deutsch": "Schön, dich kennenzulernen"
         },
-        "im" : {
-            "english" : "I'm",
-            "italiano" : "Sono",
-            "deutsch" : "Ich bin"
+        "im": {
+            "english": "I'm",
+            "italiano": "Sono",
+            "deutsch": "Ich bin"
         },
-        "job" : {
-            "english" : "I'm a front end developer specialized in React",
-            "italiano" : "Sono uno sviluppatore front end specializzato in React",
-            "deutsch" : "Ich bin ein Frontend-Entwickler mit Spezialisierung auf React"
+        "job": {
+            "english": "I'm a full stack developer specialized in React, back end architectures, and Arduino integrations",
+            "italiano": "Sono uno sviluppatore full stack specializzato in React, architetture back end e integrazioni con Arduino",
+            "deutsch": "Ich bin ein Full-Stack-Entwickler mit Spezialisierung auf React, Backend-Systeme und Arduino-Integrationen"
         },
-        "motto" : {
-            "english" : "'Maybe I don't know how to do it yet, but I will figure it out'",
-            "italiano" : "'Forse non so ancora come farlo, ma troverò un modo'",
-            "deutsch" : "'Vielleicht weiß ich noch nicht, wie ich es machen soll, aber ich werde es herausfinden'"
+        "motto": {
+            "english": "'Maybe I don't know how to do it yet, but I will figure it out'",
+            "italiano": "'Forse non so ancora come farlo, ma troverò un modo'",
+            "deutsch": "'Vielleicht weiß ich noch nicht, wie ich es machen soll, aber ich werde es herausfinden'"
         },
-        "profile_alt" : {
-            "english" : "Profile image",
-            "italiano" : "Immagine di profilo",
-            "deutsch" : "Profilbild"
-        },  
-        "button" : {
-            "english" : "CONTACT ME",
-            "italiano" : "CONTATTAMI",
-            "deutsch" : "KONTAKTIERE MICH"
-        }   
-    },
-
-    "skills" : {
-        "generic" : {
-            "english" : "Generic",
-            "italiano" : "Generico",
-            "deutsch" : "Generisch"
+        "profile_alt": {
+            "english": "Profile image",
+            "italiano": "Immagine di profilo",
+            "deutsch": "Profilbild"
+        },
+        "button": {
+            "english": "CONTACT ME",
+            "italiano": "CONTATTAMI",
+            "deutsch": "KONTAKTIERE MICH"
         }
     },
-    
-    "certifications" : {
-        "title" : {
-            "english" : "Certifications",
-            "italiano" : "Certificazioni",
-            "deutsch" : "Zertifizierungen"
+    "skills": {
+        "generic": {
+            "english": "Generic",
+            "italiano": "Generico",
+            "deutsch": "Generisch"
         },
-        "completed" : {
-            "english" : "Completed",
-            "italiano" : "Completata",
-            "deutsch" : "Vollendet"
-        },
-        "in_progress" : {
-            "english" : "In progress",
-            "italiano" : "In corso",
-            "deutsch" : "Im Gange"
+        "electronics": {
+            "english": "Electronics",
+            "italiano": "Elettronica",
+            "deutsch": "Elektronik"
         }
     },
-    
-    "contact" : {
-        "title" : {
-            "english" : "Contacts",
-            "italiano" : "Contatti",
-            "deutsch" : "Kontakt"
+    "certifications": {
+        "title": {
+            "english": "Certifications",
+            "italiano": "Certificazioni",
+            "deutsch": "Zertifizierungen"
         },
-        "message" : {
-            "english" : "I like challenging and ambitious projects. Let me know how I can help you: fill in the form, and I'll get back to you as soon as possible.",
-            "italiano" : "Mi piacciono i progetti impegnativi e ambiziosi. Fammi sapere come posso aiutarti: compila il modulo e ti ricontatterò il prima possibile.",
-            "deutsch" : "Ich mag herausfordernde und ehrgeizige Projekte. Lassen Sie mich wissen, wie ich Ihnen helfen kann: Füllen Sie das Formular aus und ich werde mich so schnell wie möglich bei Ihnen melden."
+        "completed": {
+            "english": "Completed",
+            "italiano": "Completata",
+            "deutsch": "Vollendet"
         },
-        "name_label" : {
-            "english" : "NAME",
-            "italiano" : "NOME",
-            "deutsch" : "NAME"
+        "in_progress": {
+            "english": "In progress",
+            "italiano": "In corso",
+            "deutsch": "Im Gange"
+        }
+    },
+    "contact": {
+        "title": {
+            "english": "Contacts",
+            "italiano": "Contatti",
+            "deutsch": "Kontakt"
         },
-        "message_label" : {
-            "english" : "MESSAGE",
-            "italiano" : "MESSAGGIO",
-            "deutsch" : "NACHRICHT"
+        "message": {
+            "english": "I like challenging and ambitious projects. Let me know how I can help you: fill in the form, and I'll get back to you as soon as possible.",
+            "italiano": "Mi piacciono i progetti impegnativi e ambiziosi. Fammi sapere come posso aiutarti: compila il modulo e ti ricontatterò il prima possibile.",
+            "deutsch": "Ich mag herausfordernde und ehrgeizige Projekte. Lassen Sie mich wissen, wie ich Ihnen helfen kann: Füllen Sie das Formular aus und ich werde mich so schnell wie möglich bei Ihnen melden."
         },
-        "button" : {
-            "english" : "SEND MESSAGE",
-            "italiano" : "INVIA MESSAGGIO",
-            "deutsch" : "NACHRICHT SENDEN"
+        "name_label": {
+            "english": "NAME",
+            "italiano": "NOME",
+            "deutsch": "NAME"
         },
-        "errors" : {
-            "name_required" : {
-                "english" : "Name required",
-                "italiano" : "Nome obbligatorio",
-                "deutsch" : "Name erforderlich"
+        "message_label": {
+            "english": "MESSAGE",
+            "italiano": "MESSAGGIO",
+            "deutsch": "NACHRICHT"
+        },
+        "button": {
+            "english": "SEND MESSAGE",
+            "italiano": "INVIA MESSAGGIO",
+            "deutsch": "NACHRICHT SENDEN"
+        },
+        "errors": {
+            "name_required": {
+                "english": "Name required",
+                "italiano": "Nome obbligatorio",
+                "deutsch": "Name erforderlich"
             },
-            "email_required" : {
-                "english" : "Email required",
-                "italiano" : "Email obbligatoria",
-                "deutsch" : "Email erforderlich"
+            "email_required": {
+                "english": "Email required",
+                "italiano": "Email obbligatoria",
+                "deutsch": "Email erforderlich"
             },
-            "valid_email" : {
-                "english" : "Please insert a valid email",
-                "italiano" : "Per favore inserisci una email valida",
-                "deutsch" : "Bitte geben Sie eine gültige email ein"
+            "valid_email": {
+                "english": "Please insert a valid email",
+                "italiano": "Per favore inserisci una email valida",
+                "deutsch": "Bitte geben Sie eine gültige email ein"
             },
-            "message_required" : {
-                "english" : "Please write your message",
-                "italiano" : "Per favore scrivi il tuo messaggio",
-                "deutsch" : "Bitte schreiben Sie Ihre Nachricht"
+            "message_required": {
+                "english": "Please write your message",
+                "italiano": "Per favore scrivi il tuo messaggio",
+                "deutsch": "Bitte schreiben Sie Ihre Nachricht"
             }
         }
     },
-    "about" : {  
-        "english_title" : "About me",
-        "italian_title" : "Su di me", 
-        "german_title" : "Über mich",  
-        "english" : ["I'm really enthusiastic about my new journey as a developer.", "It all begun with the interest of mine about building a personal website, starting with the ", "Mozilla's Front-end web developer guide", " and then the ", "Coursera's Meta Front-End Developer Professional Certificate.", "Someone would say that learning how to code at my age is difficult, but I'm built to do difficult things: get up at 5am, study, than go to work at 8am.", "As a former personal trainer I'm always looking forward to add value to people and I don't like to feel like a liability. Strength is my most important value wich I always tried to pass on people. It may seem a strange analogy but I feel the same with the code I build: I want it to be solid and robust.", "I'm based in Italy but I'm ready to move any time or work from remote.", "Another challenge that exites me is learning a new language. I'm already fluent in english and I'm currently tackling the german idiom.", "Perpetually engaged in my self improvement, being that phisical or mental, I enjoy strenous training as much as reading books.", "Looking forward to interesting and challenging projects, feel free to write me an email at ", "fabio.bauleo.developer@gmail.com", " or using the form below."],
-        "italiano" : ["Sono veramente entusiasta della mia nuova avventura da developer.", "Tutto è iniziato con la mia volontà di costruirmi un sito internet personale, partendo dal ", "Mozilla's front-end web developer guide", " e successivamente la ", "Coursera's Meta Front-End Developer Professional Certificate.", "Qualcuno potrebbe dire che imparare a programmare alla mia età è difficile, ma io sono fatto per affrontare sfide difficili: sveglia alle 5 del mattino, studio, poi a lavoro per le 8.", "Grazie alla mia esperienza come personal trainer ho sviluppato un forte interesse nell'aggiungere valore alla vita delle persone e odio sentirmi un peso per gli altri. La forza è il mio valore più importante e cerco sempre di infonderla negli altri. Può sembrare una strana analogia ma provo la stessa cosa nei confronti del codice che scrivo: voglio che sia solido e robusto.", "Vivo in Italia ma sono pronto a spostarmi in ogni momento o a lavorare da remoto.", "Un'altra sfida che mi motiva è l'apprendimento di una nuova lingua. Sono già fluente in inglese e sto aggressivamente imparando la lingua tedesca.", "Costantemente impegnato nel miglioramento personale, sia esso fisico o mentale, adoro gli allenamenti intensi allo stesso modo della lettura dei libri.", "Cerco progetti interessanti ed impegnativi, sentiti libero di scrivere una email a ", "fabio.bauleo.developer@gmail.com", " o di usare la form qui in basso."],
-        "deutsch" : ["Ich bin wirklich begeistert von meiner neuen Reise als Entwickler.", "Alles begann mit meinem Interesse an der Erstellung einer persönlichen Website, angefangen mit dem ", "Mozilla's front-end web developer guide", " und dann dem ", "Coursera's Meta Front-End Developer Professional Certificate.", "Jemand würde sagen, dass es in meinem Alter schwierig ist, das Programmieren zu lernen, aber ich bin für schwierige Dinge gebaut: um 5 Uhr morgens aufstehen, lernen und dann um 8 Uhr zur Arbeit gehen.", "Als Ehemaliger Als Personal Trainer freue ich mich immer darauf, den Menschen einen Mehrwert zu bieten, und fühle mich nicht gern als Belastung. Stärke ist mein wichtigster Wert, den ich immer versucht habe, den Menschen weiterzugeben. Es mag wie eine seltsame Analogie klingen, aber mir geht es bei dem Code, den ich erstelle, genauso: Ich möchte, dass er solide und robust ist.", "Ich lebe in Italien, bin aber jederzeit bereit, umzuziehen oder von unterwegs aus zu arbeiten.", "Eine weitere Herausforderung, die mich begeistert, ist das Erlernen einer neuen Sprache. Ich spreche bereits fließend Englisch und beschäftige mich derzeit mit der deutschen Sprache.", "Ich bin ständig damit beschäftigt, mich körperlich oder geistig zu verbessern, und genieße anstrengendes Training ebenso wie das Lesen von Büchern.", "Ich freue mich auf interessante Dinge Für anspruchsvolle Projekte schreiben Sie mir gerne eine E-Mail an ", "fabio.bauleo.developer@gmail.com", " oder verwenden Sie das untenstehende Formular."]
+    "about": {
+        "english_title": "About me",
+        "italian_title": "Su di me",
+        "german_title": "Über mich",
+        "english": [
+            "I'm an evolved full stack developer, enthusiastic about building complete applications from front end to back end, and blending them with Arduino electronics.",
+            "It all begun with the interest of mine about building a personal website, starting with the ",
+            "Mozilla's Front-end web developer guide",
+            " and then the ",
+            "Coursera's Meta Front-End Developer Professional Certificate.",
+            "Someone would say that learning how to code at my age is difficult, but I'm built to do difficult things: get up at 5am, study, than go to work at 8am.",
+            "As a former personal trainer I'm always looking forward to add value to people and I don't like to feel like a liability. Strength is my most important value wich I always tried to pass on people. It may seem a strange analogy but I feel the same with the code I build: I want it to be solid and robust.",
+            "I'm based in Italy but I'm ready to move any time or work from remote.",
+            "Another challenge that exites me is learning a new language. I'm already fluent in english and I'm currently tackling the german idiom.",
+            "Perpetually engaged in my self improvement, being that phisical or mental, I enjoy strenous training as much as reading books.",
+            "Looking forward to interesting and challenging projects, feel free to write me an email at ",
+            "fabio.bauleo.developer@gmail.com",
+            " or using the form below."
+        ],
+        "italiano": [
+            "Sono uno sviluppatore full stack: sviluppo app web front end, back end ed integro il tutto con dispositivi elettronici Arduino.",
+            "Tutto è iniziato con la mia volontà di costruirmi un sito internet personale, partendo dal ",
+            "Mozilla's front-end web developer guide",
+            " e successivamente la ",
+            "Coursera's Meta Front-End Developer Professional Certificate.",
+            "Qualcuno potrebbe dire che imparare a programmare alla mia età è difficile, ma io sono fatto per affrontare sfide difficili: sveglia alle 5 del mattino, studio, poi a lavoro per le 8.",
+            "Grazie alla mia esperienza come personal trainer ho sviluppato un forte interesse nell'aggiungere valore alla vita delle persone e odio sentirmi un peso per gli altri. La forza è il mio valore più importante e cerco sempre di infonderla negli altri. Può sembrare una strana analogia ma provo la stessa cosa nei confronti del codice che scrivo: voglio che sia solido e robusto.",
+            "Vivo in Italia ma sono pronto a spostarmi in ogni momento o a lavorare da remoto.",
+            "Un'altra sfida che mi motiva è l'apprendimento di una nuova lingua. Sono già fluente in inglese e sto aggressivamente imparando la lingua tedesca.",
+            "Costantemente impegnato nel miglioramento personale, sia esso fisico o mentale, adoro gli allenamenti intensi allo stesso modo della lettura dei libri.",
+            "Cerco progetti interessanti ed impegnativi, sentiti libero di scrivere una email a ",
+            "fabio.bauleo.developer@gmail.com",
+            " o di usare la form qui in basso."
+        ],
+        "deutsch": [
+            "Ich bin ein weiterentwickelter Full-Stack-Entwickler, der sich für die Entwicklung kompletter Anwendungen vom Front-End bis zum Back-End und die Integration mit Arduino-Elektronik begeistert.",
+            "Alles begann mit meinem Interesse an der Erstellung einer persönlichen Website, angefangen mit dem ",
+            "Mozilla's front-end web developer guide",
+            " und dann dem ",
+            "Coursera's Meta Front-End Developer Professional Certificate.",
+            "Jemand würde sagen, dass es in meinem Alter schwierig ist, das Programmieren zu lernen, aber ich bin für schwierige Dinge gebaut: um 5 Uhr morgens aufstehen, lernen und dann um 8 Uhr zur Arbeit gehen.",
+            "Als Ehemaliger Als Personal Trainer freue ich mich immer darauf, den Menschen einen Mehrwert zu bieten, und fühle mich nicht gern als Belastung. Stärke ist mein wichtigster Wert, den ich immer versucht habe, den Menschen weiterzugeben. Es mag wie eine seltsame Analogie klingen, aber mir geht es bei dem Code, den ich erstelle, genauso: Ich möchte, dass er solide und robust ist.",
+            "Ich lebe in Italien, bin aber jederzeit bereit, umzuziehen oder von unterwegs aus zu arbeiten.",
+            "Eine weitere Herausforderung, die mich begeistert, ist das Erlernen einer neuen Sprache. Ich spreche bereits fließend Englisch und beschäftige mich derzeit mit der deutschen Sprache.",
+            "Ich bin ständig damit beschäftigt, mich körperlich oder geistig zu verbessern, und genieße anstrengendes Training ebenso wie das Lesen von Büchern.",
+            "Ich freue mich auf interessante Dinge Für anspruchsvolle Projekte schreiben Sie mir gerne eine E-Mail an ",
+            "fabio.bauleo.developer@gmail.com",
+            " oder verwenden Sie das untenstehende Formular."
+        ]
     },
-    "projects" : {  
-        "english_title" : "Projects",
-        "italian_title" : "Progetti", 
-        "german_title" : "Projekte",
-        "english_cta" : "Click on the image to see the deployed version.",
-        "italian_cta" : "Clicca sull'immagine per vedere la versione deployed",
-        "german_cta" : "Klicken Sie auf das Bild, um die deployed Version anzuzeigen",
-        "to_do_list" : {
-            "english" : "This is a simple to do list web app. For now it is not yet fullstack so you can't actually save your list of activities. The frontend-only version simulates the beaviour of adding and removing tasks.",
-            "italian" : "Questa è una semplice to do list web app. Per ora non è ancora fullstack quindi non puoi salvare l'elenco delle attività. La versione frontend-only simula il comportamento di aggiunta e rimozione di attività.",
-            "german" : "Dies ist eine einfach zu erstellende Listen-Web-App. Im Moment ist es noch kein Fullstack, sodass Sie Ihre Aktivitätsliste nicht wirklich speichern können. Die reine Frontend-Version simuliert das Verhalten beim Hinzufügen und Entfernen von Aufgaben."
+    "projects": {
+        "english_title": "Projects",
+        "italian_title": "Progetti",
+        "german_title": "Projekte",
+        "english_cta": "Click on the image to see the deployed version.",
+        "italian_cta": "Clicca sull'immagine per vedere la versione deployed",
+        "german_cta": "Klicken Sie auf das Bild, um die deployed Version anzuzeigen",
+        "to_do_list": {
+            "english": "This is a simple to do list web app. For now it is not yet fullstack so you can't actually save your list of activities. The frontend-only version simulates the beaviour of adding and removing tasks.",
+            "italian": "Questa è una semplice to do list web app. Per ora non è ancora fullstack quindi non puoi salvare l'elenco delle attività. La versione frontend-only simula il comportamento di aggiunta e rimozione di attività.",
+            "german": "Dies ist eine einfach zu erstellende Listen-Web-App. Im Moment ist es noch kein Fullstack, sodass Sie Ihre Aktivitätsliste nicht wirklich speichern können. Die reine Frontend-Version simuliert das Verhalten beim Hinzufügen und Entfernen von Aufgaben."
         },
-        "password_generator" : {
-            "english" : "With this web app you can create or evaluate a password. The algorithm will assign a robustness level to the password: weak, medium, strong.",
-            "italian" : "Con questa web app puoi creare o valutare una password. L'algoritmo assegnerà un livello di robustezza alla password: debole, medio, forte.",
-            "german" : "Mit dieser Web-App können Sie ein Passwort erstellen oder auswerten. Der Algorithmus weist dem Passwort eine Robustheitsstufe zu: schwach, mittel, stark."
+        "password_generator": {
+            "english": "With this web app you can create or evaluate a password. The algorithm will assign a robustness level to the password: weak, medium, strong.",
+            "italian": "Con questa web app puoi creare o valutare una password. L'algoritmo assegnerà un livello di robustezza alla password: debole, medio, forte.",
+            "german": "Mit dieser Web-App können Sie ein Passwort erstellen oder auswerten. Der Algorithmus weist dem Passwort eine Robustheitsstufe zu: schwach, mittel, stark."
         },
-        "old_portfolio" : {
-            "english" : "This was my very first Portfolio buil right after finishing the Meta Front End Certificate on Coursera.",
-            "italian" : "Questo è stato il mio primissimo portfolio creato subito dopo aver terminato la certificazione Meta Front End su Coursera.",
-            "german" : "Dies war mein allererstes Portfolio, das direkt nach Abschluss der Meta Front End-Zertifizierung auf Coursera erstellt wurde."
+        "old_portfolio": {
+            "english": "This was my very first Portfolio buil right after finishing the Meta Front End Certificate on Coursera.",
+            "italian": "Questo è stato il mio primissimo portfolio creato subito dopo aver terminato la certificazione Meta Front End su Coursera.",
+            "german": "Dies war mein allererstes Portfolio, das direkt nach Abschluss der Meta Front End-Zertifizierung auf Coursera erstellt wurde."
         }
     }
-
 }

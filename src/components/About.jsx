@@ -18,14 +18,16 @@ export default function About(){
                     <path d="M17 9.5L12 14.5L7 9.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-            <div className={`transition-all delay-150 ease-in-out duration-300 ${hidden ? " max-h-0 opacity-1 scale-0 -translate-y-[20px]" : "max-h-[2000px] opacity-100 scale-100 translate-y-0"}`}> 
-                <p className="mx-10 text-left">{
+            <div className={`grid transition-all duration-500 ease-in-out ${hidden ? "grid-rows-[0fr] opacity-0" : "grid-rows-[1fr] opacity-100"}`}>
+                <div className="overflow-hidden">
+                    <div className="bg-zinc-50 dark:bg-stone-900/50 rounded-3xl p-6 sm:p-10 mx-4 sm:mx-10 mt-6 shadow-none md:shadow-inner"> 
+                <p className="mx-0 sm:mx-0 text-left text-zinc-700 dark:text-stone-300 mb-4 leading-relaxed text-base sm:text-lg">{
                         language === 'english' ? text.about.english[0] :
                         language === 'italiano' ? text.about.italiano[0] :
                         text.about.deutsch[0]
                     }
                 </p>
-                <p className="mx-10 text-left">{ 
+                <p className="mx-0 sm:mx-0 text-left text-zinc-700 dark:text-stone-300 mb-4 leading-relaxed text-base sm:text-lg">{ 
                     language === 'english' ? text.about.english[1] :
                     language === 'italiano' ? text.about.italiano[1] :
                     text.about.deutsch[1]
@@ -47,37 +49,37 @@ export default function About(){
                         }
                     </a>
                 </p>
-                <p className="mx-10 text-left">{
+                <p className="mx-0 sm:mx-0 text-left text-zinc-700 dark:text-stone-300 mb-4 leading-relaxed text-base sm:text-lg">{
                         language === 'english' ? text.about.english[5] :
                         language === 'italiano' ? text.about.italiano[5] :
                         text.about.deutsch[5]
                     }
                 </p>
-                <p className="mx-10 text-left">{
+                <p className="mx-0 sm:mx-0 text-left text-zinc-700 dark:text-stone-300 mb-4 leading-relaxed text-base sm:text-lg">{
                         language === 'english' ? text.about.english[6] :
                         language === 'italiano' ? text.about.italiano[6] :
                         text.about.deutsch[6]
                     }
                 </p>
-                <p className="mx-10 text-left">{
+                <p className="mx-0 sm:mx-0 text-left text-zinc-700 dark:text-stone-300 mb-4 leading-relaxed text-base sm:text-lg">{
                         language === 'english' ? text.about.english[7] :
                         language === 'italiano' ? text.about.italiano[7] :
                         text.about.deutsch[7]
                     }
                 </p>
-                <p className="mx-10 text-left">{
+                <p className="mx-0 sm:mx-0 text-left text-zinc-700 dark:text-stone-300 mb-4 leading-relaxed text-base sm:text-lg">{
                         language === 'english' ? text.about.english[8] :
                         language === 'italiano' ? text.about.italiano[8] :
                         text.about.deutsch[8]
                     }
                 </p>
-                <p className="mx-10 text-left">{
+                <p className="mx-0 sm:mx-0 text-left text-zinc-700 dark:text-stone-300 mb-4 leading-relaxed text-base sm:text-lg">{
                         language === 'english' ? text.about.english[9] :
                         language === 'italiano' ? text.about.italiano[9] :
                         text.about.deutsch[9]
                     }
                 </p>
-                <p className="mx-10 text-left">{
+                <p className="mx-0 sm:mx-0 text-left text-zinc-700 dark:text-stone-300 mb-4 leading-relaxed text-base sm:text-lg">{
                         language === 'english' ? text.about.english[10] :
                         language === 'italiano' ? text.about.italiano[10] :
                         text.about.deutsch[10]
@@ -93,6 +95,8 @@ export default function About(){
                         text.about.deutsch[12]
                     }
                 </p>
+                    </div>
+                </div>
             </div>
         </div>
     );

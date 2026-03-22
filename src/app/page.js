@@ -12,21 +12,27 @@ import { LanguageProvider } from "@/contexts/LanguageProvider";
 
 export default function Home() {
   return (
-    <main className="bg-zinc-100 dark:bg-stone-900">
+    <main className="bg-zinc-50 dark:bg-stone-900 transition-colors duration-300">
       <LanguageProvider>
         <Header />
-        <Hero />
-        <hr className="mt-10"/>
-        <Skills />
-        <hr/>
-        <Certifications />
-        <hr/>
-        <Projects />
-        <hr/>
-        <About />
-        <hr/>
-        <Contact />
-        <hr/>
+        <div className="py-10 md:py-16">
+          <Hero />
+        </div>
+        <section className="bg-white dark:bg-stone-950 py-16 md:py-24 transition-colors duration-300">
+          <Skills />
+        </section>
+        <section className="py-16 md:py-24">
+          <Certifications />
+        </section>
+        <section className="bg-white dark:bg-stone-950 py-16 md:py-24 transition-colors duration-300">
+          <Projects />
+        </section>
+        <section className="py-16 md:py-24">
+          <About />
+        </section>
+        <section className="bg-white dark:bg-stone-950 py-16 md:py-24 transition-colors duration-300">
+          <Contact />
+        </section>
         <Footer />
       </LanguageProvider>
     </main>
