@@ -46,7 +46,8 @@ export default function Contact(){
                 setTimeout(() => setSubmitStatus({ state: 'idle', message: '' }), 5000);
             }, (error) => {
                 console.error(error);
-                setSubmitStatus({ state: 'error', message: 'Failed to send message. Please try again.' });
+                let errorMsg = error.text || error.message || 'Unknown error occurred.';
+                setSubmitStatus({ state: 'error', message: `Delivery failed: ${errorMsg}` });
                 setSubmitting(false);
             }
         );
